@@ -10,6 +10,7 @@
 - Catch2 (header-only, included in `test/catch.hpp`)
 
 ## Directory Structure
+```
 README.md
 flight_fare_assistant (root)
 ├── CMakeLists.txt
@@ -19,7 +20,7 @@ flight_fare_assistant (root)
 └── test
     ├── catch.hpp
     └── tests-main.cpp
-
+```
 ## Setup
 1. Make sure that the root project directory name is "flight_fare_assistant" otherwise, the build will fail.
 2. In the root project directory, create and enter a build directory.
